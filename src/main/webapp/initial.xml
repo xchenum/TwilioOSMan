@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>
+        Please record your message:
+    </Say>
+    <Record
+        action="action"
+        method="GET"
+        finishOnKey="#"
+        maxLength="30"
+        />
+    <Say>I did not hear a recording.  Goodbye.</Say>
+</Response>
