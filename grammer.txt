@@ -1,0 +1,17 @@
+#JSGF V1.0;
+  
+grammar command;
+ 
+public <command> = <deploy> <number> <size> <vm> <at> <location>;
+ 
+<deploy> = deploy | start | spawn | initiate | create;
+
+<number> = one | two | three | four | five | six | seven | eight | nine | ten;
+
+<size> = tiny | small | medium | large | extra large;
+
+<vm> = VM | VMs | virtual ( machine | machines );
+
+<at> = in | at;
+
+<location> = dallas | ashburn;
